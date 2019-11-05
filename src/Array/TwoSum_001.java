@@ -32,5 +32,11 @@ public class TwoSum_001 {
         int[] nums ={2,7,11,15};
         int target = 9;
         System.out.println(Arrays.toString(twosum(nums, target)));
+
+        char ch = 'a';
+        char print = ch;
+        for (int j =  0; j <= 3; j++){
+            System.out.println((print++));
+        }
     }
 }
