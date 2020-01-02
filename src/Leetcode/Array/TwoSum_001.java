@@ -1,4 +1,4 @@
-package Array;
+package Leetcode.Array;
 import java.util.*;
 
 public class TwoSum_001 {
@@ -33,10 +33,19 @@ public class TwoSum_001 {
         int target = 9;
         System.out.println(Arrays.toString(twosum(nums, target)));
 
-        char ch = 'a';
-        char print = ch;
-        for (int j =  0; j <= 3; j++){
-            System.out.println((print++));
+        for(int i = 0; i <= 3; i++){
+            char ch = 'a';
+            char print = ch;
+            for (int j =  0; j <= i; j++){
+                System.out.print((print++));
+            }
+            System.out.println();
         }
+        for (int i = 0; i < 3; i++)
+            System.out.println("cute");
+            System.out.println("kk");
+        int i = 0;
+        if (i == 0)
+            System.out.println("i == 0");
     }
 }
