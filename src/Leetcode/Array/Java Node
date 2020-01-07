@@ -1,0 +1,8 @@
+1.  for
+for (int n : nums){}--> for n in nums
+
+2. int i = nums.length > 0 ? 1 : 0;
+
+3. ++
+a = ++i --> a = i
+a = i++ --> a + 1 = i
