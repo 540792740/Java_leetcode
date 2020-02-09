@@ -1,6 +1,6 @@
 package Summit_train;
 
-//class test{}
+class test{}
 class mythread extends Thread{
     // Overwrite run function
     public void run(){System.out.println("Thread overwrite run");}
