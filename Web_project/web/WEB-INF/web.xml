@@ -16,5 +16,6 @@
 
     <welcome-file-list>
         <welcome-file>first.html</welcome-file>
+        <welcome-file>day_9.jsp.jsp</welcome-file>
     </welcome-file-list>
 </web-app>
